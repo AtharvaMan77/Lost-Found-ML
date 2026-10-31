@@ -1,0 +1,102 @@
+.env
+venv/
+__pycache__/
+
+# Python generated files
+*.py[cod]
+.pytest_cache/
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+
+# Temporary files
+*.log
+.DS_Store
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+
+# Python environments and cache
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and local configuration
+.vscode/
+.idea/
+.postman/
+
+# Node.js dependencies
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# User uploads and generated files
+uploads/*
+!uploads/.gitkeep
+
+# Generated Python results
+results/*
+!results/.gitkeep
+
+# Local test images
+test_images/*
+!test_images/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Private local database and configuration
+instance/
+postman/
+.postman/
+
+# Database backups
+*.db-journal
+*.sqlite-journal
+*.bak
+
+# Private and generated project data
+instance/
+uploads/
+results/
+test_images/
+postman/
+.postman/
+
+# Database files and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.bak
